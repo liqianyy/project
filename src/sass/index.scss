@@ -1,0 +1,388 @@
+#wine{min-width: 1536px;}
+
+
+/*==banner=========================================================*/
+#banner{
+    position: relative;
+    height: 491px;
+    width: 100%;
+    .big-banner{
+        .lunbo{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 491px;
+                position:absolute;
+                top:0px;
+                left:0px;
+            }
+        }
+        .dian{
+            width: 100%;
+            position:absolute;
+            bottom:15px;
+            z-index:5;
+            text-align:center;
+            span{
+                display: inline-block;
+                margin: 0 5px;
+                background: #FFF;
+                width: 12px;
+                height: 12px;
+                overflow: hidden;
+                border-radius:100%;
+                vertical-align:middle;
+                &.cur{
+                    background-color:transparent;
+                    width: 18px;
+                    height: 18px;
+                    border:3px solid #fff;
+                }
+            }
+        }
+    }
+    .small-banner{
+        position: absolute;
+        top: 0;
+        right: 50%;
+        margin-right: -593px;
+        width: 200px;
+        height: 490px;
+        a{
+            display: block;
+            img{
+                width: 200px;
+                height: 243px;
+                opacity: 0.9;
+                &:first-of-type{
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}
+/*==main======================================================*/
+/*--hot-sell--------------------------------------------------*/
+#main{
+     #hot-sell{
+        padding-top:10px;
+        margin-bottom: 30px;
+        .hot_t{
+            margin-top: 20px;
+            border-bottom: 1px solid #c9c9c9;
+            margin-bottom:4px;
+            line-height: 36px;
+            h3{
+                display: inline-block;
+                height: 38px;
+                width: 187px;
+                line-height: 38px;
+                color: #cc0000;
+                border: 1px solid #cecece;
+                border-top: 2px solid #cc0000;
+                border-bottom: 1px solid #fff;
+                text-align: center;
+                font-size: 16px;
+                font-weight: normal;
+            }
+            a{
+                float: right;
+                font-size: 16px;
+                line-height: 30px;
+                color: #666;
+            }
+        }
+        .hot_cont{
+            li{
+                float: left;
+                width: 228px;
+                height: 220px;
+                margin-right: 10px;
+                margin-top: 10px;
+                img{
+                    width: 230px;
+                    height: 170px;
+                }
+                p{
+                    padding-left: 20px;
+                    padding-top: 5px;
+                    &.timu{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space:nowrap;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 20px;
+                    }
+                    &.price{
+                        height: 24px;
+                        line-height: 24px;
+                        font-size: 16px;
+                        color: #f00f34;
+                        span{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #floors{
+        .floor{
+            margin-bottom: 30px;
+            .floor_t{
+                height: 32px;
+                border-bottom:1px solid #c9c9c9;
+                margin-bottom: 4px;
+                h3{
+                    height: 18px;
+                    width: 20%;
+                    float: left;
+                    line-height: 18px;
+                    color: #3d4048;
+                    font-size: 16px;
+                    border-left:4px solid #f00f34;
+                    padding-left: 12px;
+
+                }
+                ul{
+                    float: right;
+                    line-height: 32px;
+                    margin-right: 20px;
+                    li{
+                        float: left;
+                        margin-left: 50px;
+                        font-size: 16px;
+                        color: #2c2c2c;
+                        cursor: pointer;
+                        height: 32px;
+                        &:hover{
+                            color: #e3393c;
+                            a{color: #e3393c;}
+                        }
+                        a{color: #424242;}
+                    }
+                }
+            }
+            .floor_c{
+                .floor_cl{
+                    background: url("../img/floor_ROne_20170726113025864767.jpg") no-repeat;
+                    width: 230px;
+                    height: 450px;
+                    float: left;
+                    background-color:#fbfbfb;
+                    margin-right:10px;
+                    .cata-flo{
+                        padding: 26px;
+                        margin-top: 70%;
+                        p{
+                            height: 24px;
+                            width: 83px;
+                            line-height: 24px;
+                            &:nth-last-child(2n-1){
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                    .brand{
+                        width: 230px;
+                        height: 171px;
+                        position: relative;
+                        span{
+                            width: 9px;
+                            height: 14px;
+                            background:url("../img/Himall_web.png") no-repeat;
+                            position: absolute;
+                            cursor: pointer;
+                            &.prev{
+                                background-position:-1351px -26px;
+                                left: 4px;
+                                top:62px;
+                            }
+                            &.next{
+                                background-position:-1377px 0px;
+                                right: 4px;
+                                top:62px;
+                            }
+                        }
+                        .brand-A{
+                            width: 188px;
+                            height: 142px;
+                            overflow:hidden;
+                            margin: 0 auto;
+                            .brandA-wrap{
+                                width: 2000px;
+                                height: 142px;
+                                position: relative;
+                                .scroll-A{
+                                    width: 188px;
+                                    height: 142px;
+                                    float: left;
+                                    position: relative;
+                                    margin-top:20px; 
+                                }
+                            }
+                        }
+                        li{
+                            float: left;
+                            width: 88px;
+                            height: 45px;
+                            margin: 0 6px 6px 0;
+                            img{
+                                width: 88px;
+                                height: 45px;
+                                vertical-align: middle;
+                                display: inline;
+                            }
+                        }
+                    }   
+                }
+                .floor_cr{
+                    float: left;
+                    width: 950px;
+                    .floor_hot{
+                        li{
+                            float: left;
+                            width: 230px;
+                            height: 220px;
+                            &.fore1{
+                                width: 470px;
+                                height: 450px;
+                                margin-right: 10px;
+                            }
+                            &.fore2,&.fore4{
+                                margin-right: 7px;
+                            }
+                            &.fore2,&.fore3{
+                                margin-bottom: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+            .floor_b{
+                li{
+                    width: 230px;
+                    height: 220px;
+                    margin-right:10px;
+                    float: left;
+                    margin-top: 10px;
+                    &:nth-of-type(2){
+                        width: 470px;
+                        height: 220px;
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    #Brand-shop{
+        margin-bottom: 30px;
+        h3{
+            font-size: 18px;
+            color: #3d4048;
+            padding-bottom:15px;
+            line-height: 18px;
+            font-weight: normal;
+        }
+        .BD-left{
+            height: 350px;
+            width: 280px;
+            float: left;
+        }
+        .BD-cont{
+            width: 630px;
+            height: 347px;
+            border-top:2px solid #f3f3f3;
+            border-bottom:2px solid #f3f3f3;
+            float: left;
+            padding:20px 40px;
+            position: relative;
+            overflow:hidden;
+            span{
+                width: 26px;
+                height: 38px;
+                position: absolute;
+                background: url("../img/Himall_admin.png") no-repeat;
+                background-position:-4px 0;
+                cursor: pointer;
+                &.bd-prev{
+                    left: 7px;
+                    top: 152px;
+                }
+                &.bd-next{
+                    background-position:-4px -40px;
+                    right:7px;
+                    top: 152px;
+                }
+            }
+            .BD-wrap{
+                width: 550px;
+                height: 306px;
+                overflow: hidden;
+                .scroll-wrap{
+                    height: 306px;
+                    width: 10000px;
+                    position: relative;
+                    .scroll-brand{
+                        width: 550px;
+                        height: 306px;
+                        float: left;
+                        position: relative;
+                        li{
+                            width: 110px;
+                            height: 100px;
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+        .BD-right{
+            width: 280px;
+            height: 350px;
+            float: left;
+        }
+    }
+}
+#floor-nav{
+    position: fixed;
+    width: 37px;
+    background: #FFF;
+    left: 50%;
+    top:50%;
+    margin-left:-650px;
+    li{
+        a{
+            display: block;
+            width: 19px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 auto;
+            border-bottom:1px dotted #c9c9c9;
+            color: #625352;
+            cursor: pointer;
+            white-space:nowrap;
+            span{
+                display: none;
+            }
+        }
+        &.cur{
+            background: #e3393c;
+            a{
+                width: 28px;
+                color: #FFF;
+                span{
+                    display: inline;
+                }
+                em{
+                    display: none;
+                }
+            }
+            
+        }
+    }
+}

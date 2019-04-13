@@ -1,0 +1,393 @@
+#detail {
+  min-width: 1536px;
+}
+
+.nav-l .mc {
+  display: none;
+}
+
+.nav-l:hover .mc {
+  display: block;
+}
+
+.bg-g {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.bg-g .breadcrumb {
+  height: 46px;
+  line-height: 22px;
+  vertical-align: baseline;
+  background: #fff;
+  font-size: 14px;
+  padding: 12px 0 12px 20px;
+}
+
+.bg-g .breadcrumb p {
+  font-family: 'microsoft yahei';
+}
+
+.bg-g .breadcrumb p a {
+  color: #666;
+}
+
+.bg-g .main_tb {
+  position: relative;
+  z-index: 10;
+  padding-left: 425px;
+  min-height: 500px;
+  background-color: #fff;
+  padding-top: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bg-g .main_tb #name {
+  width: 490px;
+  font-family: arial, "microsoft yahei";
+}
+
+.bg-g .main_tb #name h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #222;
+}
+
+.bg-g .main_tb #summary {
+  float: left;
+  width: 490px;
+  font-size: 14px;
+}
+
+.bg-g .main_tb #summary a {
+  color: #e3393c;
+}
+
+.bg-g .main_tb #summary li {
+  padding: 8px 0;
+  overflow: hidden;
+}
+
+.bg-g .main_tb #summary #summary-price .t {
+  background: url("../img/price-info_bg.jpg") no-repeat;
+  height: 56px;
+  line-height: 56px;
+  text-align: right;
+}
+
+.bg-g .main_tb #summary #summary-price .p-price {
+  color: #ee3e1b;
+  padding-left: 10px;
+  font-size: 26px;
+  font-family: microsoft yahei;
+  width: auto;
+  height: 31px;
+  line-height: 30px;
+  margin-top: 13px;
+}
+
+.bg-g .main_tb #summary #summary-price .b {
+  height: 45px;
+  border-bottom: 1px dashed #cbcad0;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.bg-g .main_tb #summary #summary-price .b .dt {
+  margin-top: 10px;
+}
+
+.bg-g .main_tb #summary #summary-price .b .b-01 {
+  width: auto;
+  border-right: 1px solid #a49e9e;
+  padding: 0 30px;
+}
+
+.bg-g .main_tb #summary #summary-price .b .b-01:last-of-type {
+  border: none;
+}
+
+.bg-g .main_tb #summary .hl_red {
+  color: #2d2d2d;
+}
+
+.bg-g .main_tb #summary .hl_red span {
+  color: #ff0000;
+}
+
+.bg-g .main_tb .dt {
+  float: left;
+  width: 50px;
+}
+
+.bg-g .main_tb .dt.dt01 {
+  font-size: 16px;
+}
+
+.bg-g .main_tb .dt .dd {
+  float: left;
+  line-height: 26px;
+}
+
+.bg-g .main_tb #summary-promotion {
+  width: 100%;
+  display: block;
+}
+
+.bg-g .main_tb #summary-promotion .hl_red_bg {
+  background: url("../img/product-details-icon.png") no-repeat 0 -20px;
+  color: #fff;
+  height: 20px;
+  width: 40px;
+  line-height: 20px;
+  margin-right: 25px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.bg-g .main_tb #summary-promotion .promotion-l {
+  float: left;
+  width: 440px;
+}
+
+.bg-g .main_tb #summary-promotion .promotion-l div {
+  margin-bottom: 5px;
+}
+
+.bg-g .main_tb #summary-service span {
+  float: left;
+}
+
+.bg-g .main_tb .l {
+  letter-spacing: 3px;
+}
+
+.bg-g #brand-bar-pop {
+  width: 215px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.bg-g #brand-bar-pop #seller {
+  font-size: 16px;
+  padding-bottom: 13px;
+}
+
+.bg-g #brand-bar-pop a {
+  color: #666;
+}
+
+.bg-g #brand-bar-pop dt {
+  float: left;
+}
+
+.bg-g #brand-bar-pop #hotline {
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px dashed #ccc8c8;
+}
+
+.bg-g #brand-bar-pop h3 {
+  font-size: 16px;
+  color: #222;
+  line-height: 30px;
+  padding: 10px 0 0 12px;
+}
+
+.bg-g #brand-bar-pop .pop-ensure {
+  line-height: 26px;
+  padding-top: 4px;
+}
+
+.bg-g #brand-bar-pop dl {
+  overflow: hidden;
+  padding: 10px 0 0 10px;
+}
+
+.bg-g #choose {
+  float: left;
+  width: 490px;
+  margin-bottom: 70px;
+  border-top: 1px dashed #cbcad0;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.bg-g #choose a {
+  color: #666;
+  display: block;
+  white-space: nowrap;
+}
+
+.bg-g #choose li {
+  overflow: hidden;
+  padding: 6px 0;
+}
+
+.bg-g #choose .dd {
+  overflow: hidden;
+  width: 440px;
+}
+
+.bg-g #choose #choose-amount .wrap-input {
+  position: relative;
+  padding: 0 35px;
+  float: left;
+}
+
+.bg-g #choose #choose-amount .wrap-input a {
+  position: absolute;
+  width: 32px;
+  height: 26px;
+  overflow: hidden;
+  border: 1px solid #c2c3c4;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.bg-g #choose #choose-amount .btn-reduce {
+  left: 0;
+}
+
+.bg-g #choose #choose-amount .btn-add {
+  left: 75px;
+}
+
+.bg-g #choose #choose-amount .text {
+  width: 34px;
+  height: 26px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: center;
+}
+
+.bg-g #choose #choose-amount .text::-webkit-outer-spin-button, .bg-g #choose #choose-amount .text::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.bg-g #choose #choose-btns {
+  border-bottom: 0;
+  padding-top: 25px;
+}
+
+.bg-g #choose #choose-btns .btn {
+  float: left;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.bg-g #choose #choose-btns .btn a {
+  padding: 0 24px 0 15px;
+  position: relative;
+  font: 500 20px/38px "microsoft yahei";
+  text-align: center;
+  color: #fff;
+  float: left;
+  overflow: hidden;
+  line-height: 48px;
+  background: #ff4d50;
+  border-radius: 5px;
+}
+
+.bg-g #choose #choose-btns .btn #choose-btn-buy a {
+  margin-right: 10px;
+}
+
+.bg-g #choose #choose-btns .btn-append {
+  width: 154px;
+  height: 48px;
+}
+
+.bg-g #choose #choose-btns #choose-btn-append a {
+  line-height: 44px;
+  border: 2px solid #ff4d50;
+  color: #ff4d50;
+  height: 48px;
+  background-color: #fff;
+}
+
+#preview {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 352px;
+}
+
+#preview .t_container {
+  height: 350px;
+  width: 350px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+#preview .t_container .jqzoom {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#preview .t_container .jqzoom img {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+#preview .b_container {
+  margin-top: 20px;
+  height: 60px;
+  width: 300px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+#preview .b_container img {
+  display: block;
+  border-left: none;
+  margin-right: 10px;
+  float: left;
+  width: 20%;
+  height: 60px;
+}
+
+span {
+  display: inline-block;
+}
+
+input {
+  font: 12px/1.5 tahoma, Arial, 'microsoft yahei', 'SimSun';
+}
+
+div.zoomdiv {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid #CCCCCC;
+  display: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+div.jqZoomPup {
+  z-index: 999;
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #aaa;
+  background: #ffffff url(../images/zoomlens.gif) 50% top no-repeat;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: alpha(Opacity=50);
+}

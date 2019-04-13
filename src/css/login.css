@@ -1,0 +1,283 @@
+@charset "UTF-8";
+body {
+  background: #f2f2f2;
+}
+
+#login {
+  min-width: 1536px;
+}
+
+.w {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.w #logo {
+  padding: 10px 0;
+  position: relative;
+}
+
+.w #logo a {
+  color: #333;
+}
+
+.w #logo b {
+  position: absolute;
+  background: url("../img/login/login-all-bg.png") 0 -131px no-repeat;
+  width: 111px;
+  height: 46px;
+  top: 18px;
+  margin-left: 20px;
+}
+
+/*===entry===============================================*/
+#entry {
+  width: 900px;
+  height: 402px;
+  border: 5px solid #e8e8e8;
+  border-radius: 3px;
+  margin: 55px auto 0;
+  position: relative;
+}
+
+#entry .mc {
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  height: 400px;
+}
+
+#entry .mc #entry-bg {
+  width: 460px;
+  height: 400px;
+  float: left;
+  background: url(../images/login-banner.png) no-repeat;
+  background-size: cover;
+}
+
+#entry .mc #entry-bg img {
+  width: 460px;
+  height: 400px;
+}
+
+#entry .tab_content {
+  float: left;
+  margin-left: 55px;
+  height: 354px;
+  width: 321px;
+  position: relative;
+}
+
+#entry .tab_content .tab_tit {
+  height: 54px;
+  border-bottom: 1px solid #fbfbfb;
+  font-weight: bold;
+  height: 54px;
+  line-height: 54px;
+  width: 100%;
+  text-align: center;
+}
+
+#entry .tab_content .tab_tit a {
+  font-size: 18px;
+  display: block;
+  color: #e54b54;
+  line-height: 18px;
+  margin: 18px auto;
+  font-family: "微软雅黑";
+}
+
+#entry .tab_content .tab_cont {
+  height: 263px;
+}
+
+#entry .tab_content .tab_cont .tips {
+  position: relative;
+  background: #fef4e5;
+  color: #666;
+  border: 1px solid #f6c090;
+  width: 286px;
+  padding: 3px 0 3px 30px;
+  line-height: 15px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#entry .tab_content .tab_cont .tips i {
+  display: block;
+  width: 16px;
+  height: 17px;
+  background: url(../img/login/pwd_icons.png) -104px -133px no-repeat;
+  position: absolute;
+  left: 10px;
+  z-index: 5;
+}
+
+#entry .fore1 {
+  z-index: 10;
+  margin-bottom: 10px;
+  height: 38px;
+}
+
+#entry .item {
+  line-height: 26px;
+  width: 320px;
+}
+
+#entry .item .item-ifo {
+  width: 100%;
+  position: relative;
+}
+
+#entry .item .item-ifo .text-area {
+  width: 318px;
+  height: 38px;
+  border: 1px solid #b8c1c8;
+  position: relative;
+}
+
+#entry .item .item-ifo .ico.i-name {
+  width: 38px;
+  height: 36px;
+  display: block;
+  float: left;
+  background: url("../img/login/pwd_icons.png") 0px 0px no-repeat;
+}
+
+#entry .item .item-ifo .ico.i-pass {
+  width: 38px;
+  height: 36px;
+  display: block;
+  float: left;
+  background: url("../img/login/pwd_icons.png") -48px 0px no-repeat;
+}
+
+#entry .text {
+  width: 275px;
+  line-height: 36px;
+  font-size: 14px;
+  font-family: arial, SimSun;
+  color: #4a4a4f;
+  text-indent: 14px;
+  border: none;
+}
+
+#entry .fore2 {
+  z-index: 8;
+}
+
+#entry .code {
+  z-index: 6;
+  height: 40px;
+  margin-top: 15px;
+}
+
+#entry .code .input-val {
+  width: 140px;
+  height: 38px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#entry .code #canvas {
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#entry .code .btn {
+  display: block;
+  margin-top: 20px;
+  height: 32px;
+  width: 100px;
+  font-size: 16px;
+}
+
+#entry .ax_image {
+  font-family: 'Arial Normal', 'Arial';
+  font-size: 12px;
+}
+
+#entry .ax_image a {
+  color: #333;
+}
+
+#entry .login-btn {
+  height: 52px;
+}
+
+#entry .login-btn .btn-entry {
+  background-color: #f6342f;
+  margin-top: 10px;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+  height: 43px;
+  width: 321px;
+  letter-spacing: 5px;
+}
+
+.coagent {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  padding-right: 20px;
+  line-height: 50px;
+  border-top: 1px solid #f4f4f4;
+  height: auto;
+  width: 386px;
+  background-color: #fcfcfc;
+  text-align: left;
+}
+
+.coagent ul {
+  margin-left: 60px;
+}
+
+.coagent ul li {
+  float: left;
+  position: relative;
+}
+
+.coagent ul li a {
+  color: #333333;
+}
+
+.coagent ul li a b {
+  width: 19px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin: 15px 0px 0 0;
+}
+
+.coagent ul li a b.QQ-icon {
+  background: url("../img/login/icon-qww.png") -21px 0 no-repeat;
+}
+
+.coagent ul li a b.weibo-icon {
+  background: url("../img/login/icon-qww.png") 0px 0 no-repeat;
+}
+
+.coagent ul li a b.weixin-icon {
+  background: url("../img/login/icon-qww.png") -40px 0 no-repeat;
+}
+
+.coagent ul li a span {
+  float: left;
+  padding-left: 10px;
+}
+
+.coagent ul li .line {
+  color: #ccc;
+  padding: 0 10px;
+}
+
+#footer {
+  text-align: center;
+}

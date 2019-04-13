@@ -1,0 +1,205 @@
+@charset "UTF-8";
+#maotai {
+  min-width: 1536px;
+}
+
+.nav-l .mc {
+  display: none;
+}
+
+.nav-l:hover .mc {
+  display: block;
+}
+
+a {
+  color: #666;
+}
+
+.brandLogo {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 5px;
+}
+
+.brandLogo .concern {
+  width: 151px;
+  height: 132px;
+  background: url("../images/brand.jpg") no-repeat center center;
+  margin: 27px 0 0 15px;
+  text-align: center;
+  position: absolute;
+}
+
+.brandLogo .concern img {
+  display: inline-block;
+  margin-top: 28px;
+}
+
+.brandLogo .brand-intro {
+  float: right;
+  width: 340px;
+  height: 154px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  padding: 10px;
+  text-indent: 2em;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.position-r {
+  position: relative;
+}
+
+.crumb {
+  font-family: '微软雅黑';
+  line-height: 22px;
+  height: 46px;
+  padding: 12px 0;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 14px;
+  color: #373a40;
+}
+
+.crumb .select-value li {
+  float: left;
+  margin-right: 10px;
+}
+
+#filter {
+  height: 46px;
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding: 1px 0;
+}
+
+#filter .fore1 {
+  height: 42px;
+  overflow: hidden;
+  padding: 8px 20px 8px 15px;
+  border-top: 1px dotted #dbdbdb;
+  border-bottom: 1px dotted #dbdbdb;
+}
+
+#filter dl, #filter dt, #filter dd {
+  float: left;
+  line-height: 26px;
+}
+
+#filter .order dd {
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+}
+
+#filter .order dd a.curr {
+  color: #f00f34;
+  font-weight: bold;
+}
+
+#filter .order a {
+  display: block;
+  padding-right: 40px;
+  color: #494e52;
+}
+
+#filter .order .order-num:before, #filter .order .pro-price:before, #filter .order .pro-comment:before {
+  content: "";
+  display: inline-block;
+  border-bottom: 5px solid #999999;
+  border-left: 4px dashed transparent;
+  border-right: 4px dashed transparent;
+  position: absolute;
+  top: 8px;
+  right: 26px;
+  box-shadow: 0 0 black;
+}
+
+#filter .order .order-num:after, #filter .order .pro-price:after, #filter .order .pro-comment:after {
+  content: "";
+  display: inline-block;
+  border-top: 5px solid #999999;
+  border-left: 4px dashed transparent;
+  border-right: 4px dashed transparent;
+  position: absolute;
+  bottom: 8px;
+  right: 26px;
+  box-shadow: 0 0 black;
+}
+
+#plist {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+#plist li {
+  margin: 0 1%;
+  margin-bottom: 10px;
+  float: left;
+  width: 18%;
+  padding: 10px;
+  font-family: arial, \5b8b\4f53;
+  height: 312px;
+  border: 1px dotted #ddd;
+  cursor: pointer;
+}
+
+#plist li img {
+  width: 100%;
+}
+
+#plist li .price {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #f00f34;
+  margin-left: 5px;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+#plist li .jname {
+  font-size: 13px;
+  color: #333333;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 10px 0 10px 5px;
+}
+
+#plist li .jiao {
+  margin: 10px 0 10px 5px;
+  font-size: 14px;
+}
+
+#plist li .jiao span {
+  color: #3cbcba;
+  padding: 0 3px;
+  font-weight: bold;
+}
+
+#plist li:hover {
+  border: 1px solid #c4354c;
+}
+
+.page {
+  float: right;
+  margin-right: 15px;
+}
+
+.page span {
+  display: inline-block;
+  margin: 5px;
+  width: 40px;
+  line-height: 1.8;
+  text-align: center;
+  background-color: #dfdfdf;
+  color: #666;
+}
+
+.page span.active {
+  background-color: #fc0;
+  color: #fff;
+}

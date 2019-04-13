@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <base href="../" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="lib/jquery-3.0.0.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div id="car">
+        <header id="header">
+            <div id="header_t">
+                <div class="container">
+                    <p>
+                        您好，欢迎来到
+                        <span>中酒网！</span>
+                        <a href="index.html">去首页</a>
+                    </p>
+                    <ul class="logReg fl" id="logBefore">
+                        <li class="login-li"><a href="html/login.html">请登录</a></li>
+                        <li><a href="html/reg.html">免费注册</a></li>
+                    </ul>
+                    <ul class="logReg fl" id="logAfter">
+                        <li class="login-li"><a href="html/login.html" class="logName"></a></li>
+                        <li><a href="html/login.html" onclick='Cookie.removeCookie("uname","/");'>[退出]</a></li>
+                    </ul>
+                    <ul class="fr right-ul">
+                        <li class="my-wine">
+                            <a href="html/login.html">
+                                我的中酒网
+                                <span class="sanjiao"></span>
+                            </a>
+                            <ul class="my-tab">
+                                <li><a href="javacript:void(0);">已买到的商品</a></li>
+                                <li><a href="javacript:void(0);">我关注的商品</a></li>
+                                <li><a href="javacript:void(0);">我关注的店铺</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/html/cart">
+                                购物车
+                                <span class="car-sum">0</span>
+                                件</a>
+                        </li>
+                        <li class="wechat">
+                            微信端
+                            <img src="img/qrCode.png">
+                        </li>
+                        <li class="app">
+                            APP
+                            <div class="app-down">
+                                <img src="img/qrCode.png">
+                                <p>扫描二维码</p>
+                                <p class="down">下载手机客户端</p>
+                            </div>
+                        </li>
+                        <li class="seller">
+                            <a href="javacript:void(0);">
+                                卖家中心
+                                <span class="sanjiao"></span>
+                            </a>
+                        </li>
+                        <li class="phone">
+                            订购热线：400-798-9999
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header_b">
+                <div class="w990">
+                    <a href="index.html">
+                        <h1 class="fl ">中酒网</h1>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="w990">
+            <h3></h3>
+            <div class="cart-list">
+                <div class="cart-thead cl">
+                    <div class="column t-goods">商品</div>
+                    <div class="column t-price">商城价</div>
+                    <div class="column t-quantity">数量</div>
+                    <div class="column t-action">操作</div>
+                </div>
+                <ul id="product-list" class="cart-tbody">
+                    <li data-id="5">
+                        <p class="shang">
+                            <img src="img/1_220(1).png">
+                            <span class="title">42度天佑德2018第17界环湖赛纪念酒150ml*6（礼盒）</span>
+                        </p>
+                        <p class="price">￥ 198.00</p>
+                        <p class="num">
+                            <input type="number" min="1" value="1" id="proNum"/>
+                        </p>
+                        
+                        <a href="javacript:void(0);">删除</a>
+                    </li>
+                </ul>
+                <div class="cart-dibu">
+                    <div class="cart-button">
+                        <a class="checkout" href="javascript:void(0);" id="toSettlement"><b></b>去结算</a>
+                    </div>
+                    <div class="total fr">总计（不含运费）：
+                        <span id="finalPrice">326.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

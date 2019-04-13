@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../lib/jquery-3.0.0.js"></script>
+</head>
+<body>
+    <div id="reg">
+        <div class="top">
+            <div class="w clearfix">
+                <span class="favorite"><i></i><a href="javascript:AddFavorite(&#39;/&#39;,&#39;商城&#39;)">收藏商城</a></span>
+                <ul class="quick_list">
+                    <li class="loginbar">您好！欢迎来到商城！<a href="http://www.zhongjiu.cn/login">[登录]</a>&nbsp;<a href="javascript:regist()">[免费注册]</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w">
+            <div id="logo"><a href="http://www.zhongjiu.cn/"><img src="../img/login/zhongjiuloginlog.png" alt="商城" height="60"></a><b>欢迎注册</b></div>
+        </div>
+        <div class="w" id="regist">
+            <div class="mt">
+                <div class="extra"><span>我已经注册，现在就&nbsp;<a href="login.html" class="flk13">登录</a></span></div>
+            </div>
+            <div class="mc clearfix">
+                <form class="form">
+                    <div class="item">
+                        <span class="label">用户名：</span>
+                        <div class="fl item-ifo">
+                            <input type="text" id="uname" class="text" autocomplete="off" /><span style="padding-left: 5px;"></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="label">密码：</span>
+                        <div class="fl item-ifo">
+                            <input type="password" id="upwd" class="text" autocomplete="off" /><span style="padding-left: 5px;"></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="label">确认密码：</span>
+                        <div class="fl item-ifo">
+                            <input type="password" id="upwdConfim" class="text" autocomplete="off" /><span style="padding-left: 5px;"></span>
+                        </div>
+                    </div>
+                    <div class="item item-new">
+                        <span class="label">&nbsp;</span>
+                        <div class="fl item-ifo">
+                            <label><input type="checkbox" class="checkbox" id="readme">我已阅读并同意《<a href="/Register/RegisterAgreement" target="_blank" style="color:#e3393c" id="protocol">用户注册协议</a>》</label>
+                            <label id="checkAgreement_error" class="error" style="display:none;color: red; "><span>请仔细阅读并同意以上协议</span></label>
+                            <span class="clr"></span>
+                        </div>
+                    </div>
+                    <div class="item" name="__divregister">
+                        <span class="label">&nbsp;</span>
+                        <input type="hidden" id="introducer" name="introducer" value="0">
+                        <input type="button" class="btn-img btn-regist" id="regBtn" style="cursor:pointer" value="立即注册" tabindex="8">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="w">
+            <div id="footer">
+                <div class="copyright">Copyright©2004-2015&nbsp;&nbsp; 中酒网 &nbsp;版权所有</div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/reg.js"></script>
+</body>
+</html>

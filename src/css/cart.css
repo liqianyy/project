@@ -1,0 +1,142 @@
+#car {
+  min-width: 1536px;
+}
+
+.w990 {
+  width: 990px;
+  margin: 0 auto;
+}
+
+h3 {
+  height: 35px;
+  background: url(../img/my_cart_title.png) no-repeat left top;
+}
+
+.cart-list {
+  border: 1px solid #ddd;
+  border-top: 2px solid #b8c1c8;
+}
+
+.cart-thead {
+  height: 35px;
+  background-color: #eff2ef;
+}
+
+.cart-thead .t-goods {
+  width: 520px;
+}
+
+.cart-thead .column {
+  height: 35px;
+  border-right: 1px solid #f7f7f7;
+  float: left;
+  color: #666;
+  line-height: 35px;
+  text-align: center;
+}
+
+.cart-thead .t-price {
+  width: 128px;
+  text-align: right;
+}
+
+.cart-thead .t-quantity {
+  width: 135px;
+}
+
+.cart-tbody li {
+  background: #FDFDF7;
+  height: 75px;
+  padding: 0 20px;
+  border-top: 1px solid #ddd;
+}
+
+.cart-tbody li p {
+  display: inline-block;
+  width: 128px;
+}
+
+.cart-tbody li .shang {
+  width: 520px;
+}
+
+.cart-tbody li .shang img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  vertical-align: middle;
+}
+
+.cart-tbody li .shang .title {
+  padding: 0 10px;
+  line-height: 28px;
+}
+
+.cart-tbody li .price {
+  width: 105px;
+  text-align: right;
+  line-height: 65px;
+}
+
+.cart-tbody li .num {
+  padding-left: 48px;
+}
+
+.cart-tbody li .num input {
+  width: 34px;
+  height: 18px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.cart-tbody li a {
+  line-height: 65px;
+  text-align: center;
+  width: 99px;
+  color: #666;
+}
+
+.cart-tbody li a:hover {
+  color: #e3393c;
+}
+
+.cart-dibu {
+  clear: both;
+  width: 990px;
+  height: 50px;
+  border-top: 1px solid #ddd;
+  background-color: #eff2f5;
+}
+
+.cart-dibu .cart-button {
+  float: right;
+  padding-top: 6px;
+  padding-right: 10px;
+}
+
+.cart-dibu .cart-button #toSettlement {
+  display: inline-block;
+  color: #fff;
+  background-color: #ff4d50;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  top: 6px;
+  width: 120px;
+}
+
+.cart-dibu .total {
+  margin: 10px 20px 0 0;
+}
+
+.cart-dibu .total span {
+  vertical-align: middle;
+  font-size: 12px;
+  font-family: Verdana, Arial;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}

@@ -1,0 +1,166 @@
+@charset "UTF-8";
+body {
+  background: #eef3fa;
+}
+
+#reg {
+  min-width: 1536px;
+}
+
+.top {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  line-height: 30px;
+  background: #F7F7F7;
+  font-size: 12px;
+}
+
+.top .favorite {
+  float: left;
+  padding: 0 11px 0 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.top .favorite i {
+  top: 8px;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  background: url(../img/login/20130725.png) no-repeat 0 0;
+  position: absolute;
+}
+
+.top a {
+  color: #666;
+}
+
+.top .quick_list {
+  float: right;
+  height: 30px;
+}
+
+.top .quick_list li {
+  height: 30px;
+  padding: 0 11px 0 12px;
+  float: left;
+  position: relative;
+}
+
+.top .quick_list li a {
+  margin: 0 3px;
+}
+
+.w {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.w #logo {
+  padding: 10px 0;
+  float: none;
+  position: relative;
+}
+
+.w #logo b {
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  background: #f1f1f1;
+  width: 150px;
+  height: 46px;
+  top: 18px;
+  color: #666;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.w#regist {
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.w#regist .mt {
+  padding-right: 10px;
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+  height: 32px;
+  line-height: 32px;
+  background: #f2f2f2;
+}
+
+.w#regist .mt .extra {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.w#regist .mt .extra span {
+  display: inline-block;
+}
+
+.w#regist .mt .extra span a {
+  color: #005AA0;
+}
+
+.w#regist .mc {
+  padding: 30px 0 20px;
+  border: 1px solid #dddddd;
+}
+
+.w#regist .mc .form {
+  width: 900px;
+  margin: 30px auto;
+  float: left;
+}
+
+.w#regist .item {
+  padding-top: 9px;
+  height: 60px;
+  line-height: 34px;
+  position: relative;
+  z-index: 1;
+}
+
+.w#regist .item .item-ifo {
+  position: relative;
+  width: 500px;
+}
+
+.w#regist .label {
+  width: 210px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+  float: left;
+}
+
+.w#regist .text {
+  width: 268px;
+  height: 36px;
+  padding: 10px 25px 10px 5px;
+  border: 1px solid #cccccc;
+  float: none;
+  font-size: 14px;
+  font-family: arial, "宋体";
+  color: #999;
+}
+
+.w .btn-regist {
+  width: 270px;
+  height: 36px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background: #e54b54;
+}
+
+#footer {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#footer .copyright {
+  margin: 10px 0;
+}

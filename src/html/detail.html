@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <base href="../" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <script src="lib/jquery-3.0.0.js"></script>
+    <script src="lib/jquery.jqzoom-2.2.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div id="detail">
+        <!-- header开始 -->
+		<header id="header">
+			<div id="header_t">
+				<div class="container">
+					<p>
+						您好，欢迎来到
+						<span>中酒网！</span>
+						<a href="index.html">去首页</a>
+					</p>
+					<ul class="logReg fl" id="logBefore">
+						<li class="login-li"><a href="html/login.html">请登录</a></li>
+						<li><a href="html/reg.html">免费注册</a></li>
+					</ul>
+					<ul class="logReg fl" id="logAfter">
+						<li class="login-li"><a href="html/login.html" class="logName"></a></li>
+						<li><a href="html/login.html" onclick='Cookie.removeCookie("uname","/");'>[退出]</a></li>
+					</ul>
+					<ul class="fr right-ul">
+						<li class="my-wine">
+							<a href="html/login.html">
+								我的中酒网
+								<span class="sanjiao"></span>
+							</a>
+							<ul class="my-tab">
+								<li><a href="javacript:void(0);">已买到的商品</a></li>
+								<li><a href="javacript:void(0);">我关注的商品</a></li>
+								<li><a href="javacript:void(0);">我关注的店铺</a></li>
+							</ul>
+						</li>
+						<li>
+							<a target="_blank" href="/html/cart">
+								购物车
+								<span class="car-sum">0</span>
+								件</a>
+						</li>
+						<li class="wechat">
+							微信端
+							<img src="img/qrCode.png">
+						</li>
+						<li class="app">
+							APP
+							<div class="app-down">
+								<img src="img/qrCode.png">
+								<p>扫描二维码</p>
+								<p class="down">下载手机客户端</p>
+							</div>
+						</li>
+						<li class="seller">
+							<a href="javacript:void(0);">
+								卖家中心
+								<span class="sanjiao"></span>
+							</a>
+						</li>
+						<li class="phone">
+							订购热线：400-798-9999
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="header_b">
+				<div class="container">
+                    <a href="index.html">
+                        <h1 class="fl ">中酒网</h1>
+                    </a>
+					<img src="img/gif.gif">
+					<div class="search">
+						<ul>
+							<li>商品</li>
+							<li>店铺</li>
+						</ul>
+						<label>商品</label>
+						<input type="text" id="search-txt" placeholder="茅台">
+						<input type="button" id="search-btn" value="搜索">
+						<p>
+							<a href="javacript:void(0);" class="first-search">西凤</a>
+							<a href="javacript:void(0);">青稞酒</a>
+							<a href="javacript:void(0);">洋河</a>
+							<a href="javacript:void(0);">茅台</a>
+							<a href="javacript:void(0);">小糊涂仙</a>
+							<a href="javacript:void(0);">酒鬼酒</a>
+							<a href="javacript:void(0);">张裕</a>
+							<a href="javacript:void(0);">拉菲</a>
+							<a href="javacript:void(0);">董酒</a>
+							<a href="javacript:void(0);">华夏长城</a>
+						</p>
+					</div>
+					<div class="tianyou fr">
+						<a href="javacript:void(0);"><img src="img/tianyou.jpg"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+        <!-- header结束 -->
+        <!-- nav开始 -->
+        <nav id="nav">
+            <div class="container">
+                <div class="nav-l fl">
+                    <div class="categorys">
+                        <a href="javacript:void(0);"><i></i>全部商品分类</a>
+                    </div>
+                    <ul class="mc">
+                        <li class="li1">
+                            <h3><i></i>白酒</h3>
+                            <p>
+                                <a href="javacript:void(0);" target="_blank">茅台</a>
+                                <a href="javacript:void(0);" target="_blank">五粮液</a>
+                                <a href="javacript:void(0);" target="_blank" class="nav-hot">天佑德</a>
+                            </p>
+                            <ul>
+                                <li class="li2-l fl">
+                                    <h3>品牌</h3>
+                                    <div>
+                                        <a href="http://www.zhongjiu.cn/list/2-324-0-1-1-1.htm">剑南春</a>
+                                        <a href="javacript:void(0);">泸州老窖</a>
+                                        <a href="javacript:void(0);">伊莎特</a>
+                                        <a href="javacript:void(0);">佩西</a>
+                                        <a href="javacript:void(0);">卡萨玛利亚</a>
+                                        <a href="javacript:void(0);">龙船康帝</a>
+                                        <a href="javacript:void(0);">郎酒</a>
+                                    </div>
+                                    <h3>种类</h3>
+                                    <div>
+                                        <a href="javacript:void(0);">白酒</a>
+                                        <a href="javacript:void(0);">红酒</a>
+                                        <a href="javacript:void(0);">洋酒</a>
+                                        <a href="javacript:void(0);">起泡酒</a>
+                                        <a href="javacript:void(0);">黄酒</a>
+                                    </div>
+                                    <h3>产地</h3>
+                                    <div>
+                                        <a href="javacript:void(0);">贵州</a>
+                                        <a href="javacript:void(0);">四川</a>
+                                        <a href="javacript:void(0);">澳大利亚</a>
+                                        <a href="javacript:void(0);">法国</a>
+                                        <a href="javacript:void(0);">英国</a>
+                                    </div>
+                                </li>
+                                <li class="li2-r fl">
+                                    <h5>推荐品牌</h5>
+                                    <img src="img/201703091338113466590.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="li1">
+                            <h3><i style="background-position: -20px 0px"></i>葡萄酒</h3>
+                            <p>
+                                <a href="javacript:void(0);" target="_blank">拉菲</a>
+                                <a href="javacript:void(0);" target="_blank">张裕</a>
+                                <a href="javacript:void(0);" target="_blank" class="nav-hot">马克斯威</a>
+                            </p>
+                        </li>
+                        <li class="li1">
+                            <h3><i style="background-position: -45px 0px"></i>洋酒</h3>
+                            <p>
+                                <a href="javacript:void(0);" target="_blank" class="nav-hot">马爹利</a>
+                                <a href="javacript:void(0);" target="_blank">人头马</a>
+                                <a href="javacript:void(0);" target="_blank">芝华士</a>
+                            </p>
+                        </li>
+                        <li class="li1">
+                            <h3><i style="background-position: -70px 0px"></i>黄酒</h3>
+                            <p>
+                                <a href="javacript:void(0);" target="_blank">尧喝货</a>
+                                <a href="javacript:void(0);" target="_blank" class="nav-hot">唐宋</a>
+                                <a href="javacript:void(0);" target="_blank">塔牌</a>
+                            </p>
+                        </li>
+                        <li class="li1">
+                            <h3><i  style="background-position: -90px 0px"></i>礼盒专区</h3>
+                            <p>
+                                <a href="javacript:void(0);" target="_blank" class="nav-hot">五粮液五星级</a>
+                            </p>
+                        </li>
+                        <li class="li1">
+                            <h3><i  style="background-position: -115px 0px"></i>婚庆专区</h3>
+                            <p>
+                                <a href="javacript:void(0);" target="_blank" class="nav-hot">茅台</a>
+                                <a href="javacript:void(0);" target="_blank">拉菲</a>
+                                <a href="javacript:void(0);" target="_blank">五粮液</a>
+                                <a href="javacript:void(0);" target="_blank">张裕</a>
+                            </p>
+                        </li>
+                    </ul>	
+                </div>
+                <ul class="nav-r">
+                    <li id="nav-index"><a href="index.html" target="_blank">首页</a></li>
+                    <li><a href="javacript:void(0);" target="_blank">白酒专区</a></li>
+                    <li><a href="javacript:void(0);" target="_blank">天佑德青稞酒</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- nav结束 -->
+        <!-- 右导航开始 -->
+        <div id="right-side">
+            <ul>
+                <li><a href="javacript:void(0);"><i style="background-position: -1398px -16px"></i></a></li>
+                <li class="cart"><a href="/html/cart"><i style="background-position: -1422px 15px"></i><p>购物车</p><span class="car-sum">0</span></a></li>
+                <li><a href="javacript:void(0);"><i style="background-position: -1422px -16px"></i></a></li>
+                <li><a href="javacript:void(0);"><i style="background-position: -1448px 14px"></i></a></li>
+                <li><a href="javacript:void(0);"><i style="background-position: -1448px -16px"></i></a></li>
+            </ul>
+        </div>
+        <!-- 右导航结束 -->
+        <div class="main">
+            <div class="bg-g">
+                <div id="main_t" class="container">
+                    <div class="breadcrumb">
+                        <p>
+                            <a href="javacript:void(0);">全部</a>
+                            &nbsp;&gt;&nbsp;
+                            <a href="javacript:void(0);">白酒</a>
+                            &nbsp;&gt;&nbsp;
+                            <a href="html/proList.html">茅台</a>
+                            &nbsp;&gt;&nbsp;
+                            <a>53°茅台酒股份公司茅台飞天（2015年份）500ml</a>
+                        </p>
+                    </div>
+                    <div class="main_tb">
+                        <div id="name">
+                            <h3>53°茅台酒股份公司王子酒 500ml</h3>
+                        </div>
+                        <div class="cl clearfix">
+                            <ul id="summary">
+                                <li id="summary-price">
+                                    <div class="t">
+                                        <div class="dt dt01">价格</div>
+                                        <strong class="p-price brnone dt">￥ <span id="jd-price">2299.00</span></strong>
+                                    </div>
+                                    <div class="b">
+                                        <div class="b-01 dt">销量 &nbsp;&nbsp;<a id="saleCounts">45</a> 瓶</div>
+                                        <div class="b-01 dt">评价 &nbsp;&nbsp;<a id="Comments" href="#comment">1</a></div>
+                                    </div>
+                                </li>
+                                <li id="summary-promotion">
+                                    <div class="dt l l01">促销</div>
+                                    <div class="promotion-l">
+                                        <div><em class="hl_red_bg">满免</em><em class="hl_red">满<span>39.00</span>免运费</em></div>
+                                    </div>
+                                </li>
+                                <li id="summary-service">
+                                    <div class="dt l">库存</div>
+                                    <span id="stock" style="color: #ff4d50">有货</span>
+                                </li>
+                                <li id="service" style="width:540px;">
+                                    <div class="dt l" style="line-height: 26px;">服务</div>
+                                    <div class="dd d03">
+                                        <span style="float:left;">由 <a href="/shop/home/1" target="_blank">中酒自营</a> 从北京发货，并提供售后服务</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div id="brand-bar-pop">
+                                <dl id="seller" style="border-top:3px solid #ff4d50; padding-left:0; text-align:center;">
+                                    <a href="/brand/323.htm" target="_blank"> <img alt="茅台" title="茅台" width="100" height="100%" src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/Brand/logo_323.jpg" onerror="javascript: this.src = '/Images/onerror.jpg'; ">
+                                        <p style="font-size:12px;">茅台</p>
+                                    </a>
+                                </dl>
+                                <dl style="padding:15px 0 15px 10px;border-bottom: 1px dashed #ccc8c8;border-top: 1px solid #ccc8c8;">
+                                    <dt style="color:#fff;background-color:#ff4d50; padding:2px 10px;font-size:14px;">自营</dt>
+                                    <span style="font-size:16px;margin-left:40px;">
+                                        <a href="/shop/home/1">中酒自营店</a>
+                                    </span>
+                                </dl>
+                                <dl id="hotline">
+                                    <dd>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3060023943&amp;site=qq&amp;menu=yes" title="欣欣">
+                                        <img border="0" src="http://wpa.qq.com/pa?p=2:3060023943:4">&nbsp;在线客服
+                                        </a>
+                                    </dd>
+                                </dl>
+                                <h3>服务支持：</h3>
+                                <dl class="pop-ensure">
+                                    <dt>
+                                        <img src="img/newTimelyDelivery.png">
+                                         及时发货
+                                    </dt>
+                                </dl>
+                                <dl class="pop-ensure">
+                                    <dt>
+                                        <img src="img/genuine-product.png"> 正品保证
+                                    </dt>
+                                </dl>
+                                <dl class="pop-ensure">
+                                    <dt>
+                                        <img src="img/professional-services.png"> 专业一对一服务
+                                    </dt>
+                                </dl>
+                                <dl class="pop-ensure">
+                                    <dt>
+                                        <img src="img/change-a-purchase.png">七天无理由退换</dt>
+                                </dl>
+                            </div>
+                            <ul id="choose" class="choose">
+                                <li id="choose-amount" style="line-height: 26px;">
+                                    <div class="dt l">数量</div>
+                                    <div class="dd">
+                                        <div class="wrap-input">
+                                            <a class="btn-reduce" href="javascript:;">-</a>
+                                            <a class="btn-add" href="javascript:;">+</a>
+                                            <input class="text" type = "number" id="buy-num" value="1" min="1" >
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="choose-btns">
+                                    <div id="choose-btn-buy" class="btn">
+                                        <a class="btn-append btn-order-now" name="OrderNow" id="OrderNow">
+                                            <img src="img/lijig.png" style="width:25px;height:25px;margin-right:5px;">
+                                            立即购买
+                                        </a>
+                                    </div>
+                                    <div id="choose-btn-append" class="btn">
+                                        <a class="btn-append" id="InitCartUrl" name="InitCartUrl" style="margin-left:40px;">
+                                            <img src="img/gou.png" style="width:25px;height:25px;margin-right:5px;">加入购物车
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="preview">
+                            <div class="t_container">
+                                <div class="jqzoom">
+                                    <img src="img/maotai/small/1_50.png" jqimg="img/maotai/small/1_50.png"/>
+                                </div>
+                            </div>
+                            <div class="b_container">
+                                <!-- <img src="img/maotai/small/1_50.png" />
+                                <img src="img/maotai/small/2_50.png" />
+                                <img src="img/maotai/small/3_50.png" />
+                                <img src="img/maotai/small/4_50.png" />
+                                <img src="img/maotai/small/1_50.png" /> -->
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -3,8 +3,112 @@
 <head>
 	<meta charset="UTF-8">
 	<title>登录</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<script src="../lib/require.js" data-main="../js/lore"></script>
+	<!-- <script src="../lib/jquery-3.0.0.js"></script> -->
 </head>
 <body>
+	<div id="login">
+		<div class="w">
+			<div id="logo">
+				<a href="../index.html"><img src="../img/login/zhongjiuloginlog.png" alt="Himall" height="60"></a><b></b>
+			</div>
+		</div>
+		<div class=" w1" id="entry">
+			<div class="mc " id="bgDiv">
+				<div id="entry-bg">
+						<img src="../img/login/pcloginpic.png">
+				</div>
+				<div class="tab_content">
+					<div class="tab_tit">
+						<a href="javascript:void(0)">账户登录</a>
+					</div>
+					<div class="tab_cont">
+						<section class="">
+							<div class="form ">
+								<!--<h1>欢迎登陆</h1>-->
+								<!--tip start-->
+								<div class="tips ">
+									<i></i>
+									<em>公共场所不建议自动登录，以防账号丢失</em>
+								</div>
+								<div id="usernameone">
+									<div class="item fore1">
+										<div class="item-ifo">
+											<div class="text-area">
+												<div class="i-name ico"></div>
+												<input id="loginname" name="loginname" class="text" placeholder="用户名" autocomplete="off" sta="2" value="" type="text">
+											</div>
+										</div>
+									</div>
+									<div class="item fore2">
+										<div class="item-ifo">
+											<div class="text-area">
+												<div class="i-pass ico"></div>
+												<input id="password" name="password" class="text highlight2" placeholder="密码" autocomplete="off" sta="2" type="password">
+												
+											</div>
+										</div>
+										<div class="code">
+											<input type="text" value="" placeholder="验证码" class="input-val">
+											<canvas id="canvas" width="100" height="30"></canvas>
+										</div>
+										<!-- 用户名密码登录 -->
+										<div style="width: 100%;">
+											<div id="u4" class="ax_image" style="overflow: hidden;clear: both;margin-top: 8px;">
+												<img id="u4_img" class="img" src="../img/login/u4.png" style="position:static;float:left;">
+												<a style="margin-left:6px;float:left;text-decoration:none" href="javascript:void(0);" onclick="GetVerificationCode()">短信验证码登录</a>
+												<div class="item fore4" id="autoentry" style="float: right;width:auto; margin-top:auto;line-height: 20px;">
+													<div class="item-ifo" name="__itemifo">
+														<label class="mar" style="font-size: 13px;"><input id="autoLogin" class="checkboxs" name="" type="checkbox" style="color: #333333;font-family: 'Arial Normal', 'Arial';">自动登录</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 用户 密码登录  结束 -->
+							</div>
+							<div>
+								<div class="item login-btn" id="__divlogin">
+									<input class="btn-img btn-entry" id="loginsubmit" value="登录" type="button">
+								</div>
+							</div>
+	
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="coagent" name="__coagent">
+				<ul>
+					<li>
+						<b></b>
+						<a href="https://graph.qq.com/oauth2.0/authorize?response_type=code&amp;client_id=1106027103&amp;redirect_uri=http%3a%2f%2fwww.zhongjiu.cn%2fLogin%2fOauthCallBack%3foauthId%3dHimall.Plugin.OAuth.QQ&amp;scope=get_user_info&amp;state=Himall.Plugin.OAuth.QQ" class="pdl"><b class="QQ-icon"></b><span>QQ</span></a>
+						<span class="line">|</span>
+					</li>
+					<li>
+						<a href="https://api.weibo.com/oauth2/authorize?client_id=93470565&amp;response_type=code&amp;redirect_uri=http%3a%2f%2fwww.zhongjiu.cn%2fLogin%2fOauthCallBack%3foauthId%3dHimall.Plugin.OAuth.Weibo" class="pdl"><b class="weibo-icon"></b><span>微博</span></a>
+						<span class="line">|</span>
+					</li>
+					<li>
+						<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx45a6feedd1adfcfe&amp;redirect_uri=http%3a%2f%2fwww.zhongjiu.cn%2fLogin%2fOauthCallBack%3foauthId%3dHimall.Plugin.OAuth.WeiXin&amp;response_type=code&amp;scope=snsapi_login&amp;state=hishop#wechat_redirect" class="pdl"><b class="weixin-icon"></b><span>微信</span></a>
+						<span class="line">|</span>
+					</li>
+					<li>
+						<a href="reg.html" target="_blank" style="color:#b61d1d;">立即注册</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="w">
+			<div id="footer" style="padding-top:30px;">
+				<div class="copyright">Copyright © 2019 &nbsp;&nbsp;中酒网&nbsp;版权所有</div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="../lib/yanzheng.js"></script>
+	<script src="../js/login.js"></script> -->
 	
 </body>
 </html>
